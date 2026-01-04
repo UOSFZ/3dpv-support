@@ -2,6 +2,8 @@
 
 > 面向光储一体化项目投前决策，构建以三维认知孪生和智能分析为核心的决策支撑体系。
 
+**Demo 展示**: [https://uosfz.github.io/3dpv-support/](https://uosfz.github.io/3dpv-support/)
+
 ## 项目背景
 
 在"双碳"目标和新型电力系统建设背景下，光储一体化项目投前评估面临空间条件复杂、政策差异显著等挑战。传统分析方法难以全面反映真实投资价值。
@@ -46,7 +48,7 @@
   - <sup>2</sup>University of Liverpool, Liverpool, UK
   - <sup>3</sup>University of Birmingham, Birmingham, UK
   - <sup>4</sup>Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China
-- **发表**: Expert Systems with Applications, 2025
+- **发表**: Expert Systems with Applications
 - **论文链接**: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0957417425024868)
 
 ## 应用场景
