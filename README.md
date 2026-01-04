@@ -1,80 +1,95 @@
-# Academic Project Page Template
+# 基于三维认知孪生的长三角城市群光储一体化项目投资价值分析系统
 
-> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).
+> 面向光储一体化项目投前决策，构建以三维认知孪生和智能分析为核心的决策支撑体系。
 
-A clean, responsive template for academic project pages.
+## 项目背景
 
+在"双碳"目标和新型电力系统建设背景下，光储一体化项目投前评估面临空间条件复杂、政策差异显著等挑战。传统分析方法难以全面反映真实投资价值。
 
-Example project pages built using this template are:
-- https://horwitz.ai/probex
-- https://vision.huji.ac.il/probegen
-- https://horwitz.ai/mother
-- https://horwitz.ai/spectral_detuning
-- https://vision.huji.ac.il/ladeda
-- https://vision.huji.ac.il/dsire
-- https://horwitz.ai/podd
-- https://dreamix-video-editing.github.io
-- https://horwitz.ai/conffusion
-- https://horwitz.ai/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad
-- https://vision.huji.ac.il/deepsim
+本项目以三维认知孪生为技术核心，融合光储一体化评估方法和政策智能分析技术，构建面向投前阶段的投资价值分析与决策支撑系统。
 
+## 核心能力
 
+### （1）构建以三维认知孪生为核心的空间分析能力
 
-## Start using the template
-To start using the template click on `Use this Template`.
+构建城市与园区尺度的三维认知孪生底座，实现建筑形态、空间结构、环境条件与项目属性的统一表达，形成可计算、可关联的空间分析基础。在此基础上，将光储系统布设条件、遮挡关系和环境约束映射至统一空间模型中，为后续发电潜力预测、储能配置分析和政策适配评估提供高一致性的空间支撑，从根本上弥补传统投前分析在空间表达精度不足和空间约束刻画粗糙方面的能力缺陷。
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+### （2）建立基于时空分析的发电潜力与储能容量预测方法
 
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+突破传统二维空间假设和分离式测算方式，在三维认知孪生环境中精细刻画建筑空间条件对光伏有效辐照和发电潜力的影响，并引入时间维度刻画辐照变化、负荷波动与储能运行行为。通过将空间发电潜力与储能容量配置及运行策略进行协同建模，建立光伏发电—储能调节的统一时空预测框架，实现对发电能力、消纳水平和系统协同效应的量化预测，为投前阶段多方案比选提供具有物理与运行机理支撑的预测依据。
 
-## What's New
+### （3）形成政策—环境—光储耦合的三维投前决策模型
 
-- Modern, clean design with better mobile support
-- Improved SEO with proper meta tags and structured data
-- Performance improvements (lazy loading, optimized assets)
-- More Works dropdown
-- Copy button for BibTeX citations
-- Better accessibility
+在前述空间分析与时空预测基础上，通过模块化建模与统一的数据、模型和参数体系，将政策条款、电价结构与光储系统的三维空间发电潜力、储能容量配置及运行行为进行显式耦合，形成可计算的政策—环境—技术—经济联动决策模型。基于多情景仿真和参数化推演，定量刻画政策与电价变化对光伏发电消纳、储能利用效率和投资收益的传导机制，使投前决策结果具备清晰的因果逻辑和技术可解释性；同时，通过图形化界面和标准化结果输出，将复杂分析过程和关键结论以直观方式呈现，支持多方案对比、敏感性分析和决策结论生成，为投前评审、政策研判和科研分析提供直接支撑。
 
-## Components
+## 技术基础
 
-- Teaser video
-- Image carousel
-- YouTube video embedding
-- Video carousel
-- PDF poster viewer
-- BibTeX citation
+### 3D-PV: 空间不确定性建模与动态遮挡预测
 
-## Customization
+本系统核心技术之一为 **3D-PV** 方法，该方法通过建模空间不确定性在动态遮挡条件下增强光伏功率预测。相关研究已发表在 Expert Systems with Applications (2025)。
 
-The HTML file has TODO comments showing what to replace:
+**核心技术创新**：
+- **去模糊三维重建 (Deblurring-3DGS)**: 构建光伏及周边环境的高保真三维空间表征
+- **ComputeShader 并行计算**: 高效生成阴影变化矩阵作为时空遮挡表征
+- **语义时空融合**: 融合阴影动态与实测辐照信号，实现动态遮挡条件下的时间一致功率预测
 
-- Paper title, authors, institution, conference
-- Links (arXiv, GitHub, etc.)
-- Abstract and descriptions  
-- Videos, images, and PDFs
-- Related works in the dropdown
-- Meta tags for SEO and social sharing
+**研究成果**：
+- 相比现有最先进的预测方法，在预测精度上实现了均方误差（MSE）降低 **23.95%**
+- 精确的空间建模能够有效捕获并模拟随时间变化的阴影模式
+- 通过显式建模空间不确定性，显著提升光伏功率预测的准确性
 
-### Meta Tags
-The template includes meta tags for better search engine visibility and social media sharing. These appear in the `<head>` section and help with:
-- Google Scholar indexing
-- Social media previews (Twitter, Facebook, LinkedIn)
-- Search engine optimization
+**相关论文**：
+- **标题**: 3D-PV: Enhancing PV Power Prediction by Modeling Spatial Uncertainty Under Dynamic Shading Conditions
+- **作者**: Fengze Li<sup>1,2</sup>, Dou Hong<sup>1,2</sup>, Jieming Ma<sup>1,*</sup>, Zhongbei Tian<sup>3</sup>, Hai-Ning Liang<sup>4</sup>, Jiawei Guo<sup>1,2</sup>, Kangshi Wang<sup>1,2</sup>
+- **机构**: 
+  - <sup>1</sup>Xi'an Jiaotong-Liverpool University, Suzhou, China
+  - <sup>2</sup>University of Liverpool, Liverpool, UK
+  - <sup>3</sup>University of Birmingham, Birmingham, UK
+  - <sup>4</sup>Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China
+- **发表**: Expert Systems with Applications, 2025
+- **论文链接**: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0957417425024868)
 
-Create a 1200x630px social preview image at `static/images/social_preview.png`.
+## 应用场景
 
-## Tips
+### 长三角城市群光储一体化项目投前分析
 
-- Compress images with [TinyPNG](https://tinypng.com)
-- Use YouTube for large videos (>10MB)  
-- Replace the favicon in `static/images/`
-- Works with GitHub Pages
+- **城市/园区尺度的三维认知孪生环境**: 将屋顶几何、遮挡关系与时变光照条件转化为可计算的时空特征
+- **发电潜力预测与遮挡风险评估**: 输出更可信的预测结果，支持零碳园区规划
+- **投前决策支持**: 对接方案比选、储能容量配置与投资测算（如 IRR/NPV/回收期及敏感性分析）
+- **区域政策协同分析**: 支持多城市、多政策情景下的投资价值评估
+- **智能决策与政策研判**: 支持多项目、多情景的智能决策，为区域能源规划提供技术支撑
 
-## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
+### 系统优势
 
-## Website License
+相较于现有以人工踏勘、二维 GIS 和分离式测算为主的分析方式，本系统通过系统化建模与智能分析手段：
+
+- **显著缩短单项目投前评估周期**
+- **支持多维度、多项目智能决策**
+- **提升空间表达精度和空间约束刻画能力**
+- **增强政策影响分析和区域协同评估能力**
+
+## 项目页面组件
+
+本项目页面包含以下内容：
+
+- **Teaser 图像**: 展示 3D-PV 的"空间—时空—语义"一体化建模流程
+- **演示视频**: 展示系统在光储一体化项目投前阶段的关键能力链路
+- **研究简介**: 详细介绍研究背景、方法和贡献
+- **结果展示**: 图像轮播展示主要实验结果和可视化界面
+- **BibTeX 引用**: 提供相关论文的 BibTeX 格式引用
+
+## 技术栈
+
+- **前端**: HTML5, CSS3, Bulma CSS Framework
+- **三维重建**: Deblurring-3DGS (3D Gaussian Splatting)
+- **并行计算**: ComputeShader
+- **可视化**: 自定义 Web 界面
+- **分析引擎**: 光储一体化评估模型、政策智能分析技术
+
+## 项目意义
+
+本项目成果可为新能源投资决策、区域能源规划和政策制定提供技术支撑，并具备向其他城市群和区域推广应用的条件。通过构建科学、统一的决策依据，有助于推动长三角城市群光储一体化发展，支撑"双碳"目标实现。
+
+## 许可证
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
