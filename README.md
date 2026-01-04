@@ -28,7 +28,7 @@
 
 ### 3D-PV: 空间不确定性建模与动态遮挡预测
 
-本系统核心技术之一为 **3D-PV** 方法，该方法通过建模空间不确定性在动态遮挡条件下增强光伏功率预测。相关研究已发表在 Expert Systems with Applications (2025)。
+本系统核心技术之一为 **3D-PV** 方法，该方法通过建模空间不确定性在动态遮挡条件下增强光伏功率预测。相关研究已发表在 Expert Systems with Applications。
 
 **核心技术创新**：
 - **去模糊三维重建 (Deblurring-3DGS)**: 构建光伏及周边环境的高保真三维空间表征
@@ -48,7 +48,6 @@
   - <sup>2</sup>University of Liverpool, Liverpool, UK
   - <sup>3</sup>University of Birmingham, Birmingham, UK
   - <sup>4</sup>Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China
-- **发表**: Expert Systems with Applications
 - **论文链接**: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0957417425024868)
 
 ## 应用场景
@@ -70,23 +69,6 @@
 - **提升空间表达精度和空间约束刻画能力**
 - **增强政策影响分析和区域协同评估能力**
 
-## 项目页面组件
-
-本项目页面包含以下内容：
-
-- **Teaser 图像**: 展示 3D-PV 的"空间—时空—语义"一体化建模流程
-- **演示视频**: 展示系统在光储一体化项目投前阶段的关键能力链路
-- **研究简介**: 详细介绍研究背景、方法和贡献
-- **结果展示**: 图像轮播展示主要实验结果和可视化界面
-- **BibTeX 引用**: 提供相关论文的 BibTeX 格式引用
-
-## 技术栈
-
-- **前端**: HTML5, CSS3, Bulma CSS Framework
-- **三维重建**: Deblurring-3DGS (3D Gaussian Splatting)
-- **并行计算**: ComputeShader
-- **可视化**: 自定义 Web 界面
-- **分析引擎**: 光储一体化评估模型、政策智能分析技术
 
 ## 项目意义
 
