@@ -236,8 +236,8 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">3D-PV: Enhancing PV Power Prediction by Modeling Spatial Uncertainty Under Dynamic Shading Conditions</h1>
-            <div class="is-size-5 publication-authors">
+            <h1 class="title is-1 publication-title">基于三维认知孪生的长三角城市群光储一体化项目投资价值分析系统</h1>
+            <!-- <div class="is-size-5 publication-authors">
               <span class="author-block">
                 Fengze Li<sup>1,2</sup>,</span>
               <span class="author-block">
@@ -263,19 +263,13 @@
                 <sup>4</sup>Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China<br>
                 <span class="eql-cntrb"><small><sup>*</sup>Corresponding author: Jieming Ma (email: jieming.ma@xjtlu.edu.cn)</small></span>
               </span>
-            </div>
+            </div> -->
+            <!-- <div class="is-size-5 publication-authors">
+              <span class="author-block">效果展示</span>
+            </div> -->
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                      <span class="link-block">
-                        <a href="https://www.sciencedirect.com/science/article/pii/S0957417425024868" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
 
                     <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <!-- <span class="link-block">
@@ -318,36 +312,6 @@
 </section>
 
 
-<!-- Teaser image-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img src="static/images/fig1.png" alt="3D-PV Teaser Image" style="width: 100%; height: auto; display: block;">
-      <h2 class="subtitle has-text-centered is-size-6">
-        3D-PV 投前"空间—时空—语义"一体化建模流程。3D-PV 以 Deblurring-3DGS 构建光伏及周边环境的高保真三维空间表征，并通过 ComputeShader 并行生成阴影变化矩阵作为时空遮挡表征；在此基础上融合阴影动态与实测辐照信号，实现动态遮挡条件（DSC）下的时间一致功率预测。该能力与标书的三维认知孪生与时空分析路线一致，可为投前阶段发电潜力评估、方案对比与投资测算提供可解释、可复算的三维证据输入。
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser image -->
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/demo3.mp4" type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered is-size-6">
-        本视频展示 3D-PV 在光储一体化项目投前阶段的关键能力链路：基于 3DGS 构建三维认知孪生，生成动态阴影时空表征，并进行语义时空融合预测。输出发电潜力与遮挡风险的可解释结果，可接入已经投入使用的"中鑫能碳大模型"和其投资测算模块，支撑多方案比选与投前评审。
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -356,10 +320,10 @@
         <h2 class="title is-3">简介</h2>
         <div class="content has-text-justified">
           <p>
-            地球公转与地理差异会为光伏（PV）系统引入空间不确定性。细微的空间差异会导致动态遮挡条件（DSC），从而在时间维度上扰动功率预测。现有模型往往忽略空间不确定性的影响，因此难以有效应对光伏系统中的 DSC。本文提出 3D-PV 框架：首先引入一种去模糊的三维重建技术生成空间表征，在保留光伏板及其周边环境细节的同时实现精细建模；进一步地，本文提出基于 ComputeShader 的阴影计算算法来构建阴影变化矩阵，将其作为时空表征，用于连接上述空间表征与动态遮挡变化。基于该时空表征，3D-PV 对阴影动态与辐照度信号进行语义融合，从而在 DSC 条件下实现时间一致的功率预测。实验结果（包括消融实验）表明，精确的空间建模能够有效捕获并模拟随时间变化的阴影模式；尤其是，3D-PV 相比现有最先进的预测方法，在预测精度上实现了均方误差（MSE）降低 23.95%。这些结果进一步说明：通过显式建模空间不确定性，并在 DSC 条件下将时空表征与辐照度信号进行动态融合，可以显著提升光伏功率预测的准确性。
+            基于三维认知孪生的长三角城市群光储一体化项目投资价值分析系统，面向"双碳"目标与新型电力系统建设背景下光储项目投前决策的复杂需求，围绕"区域—园区—项目"多尺度耦合特征，构建以三维空间精细表达与大模型智能分析为核心的决策支撑体系。系统以园区为关键应用单元，聚合空间地理、气象时序、负荷电价、技术参数、政策规划与项目信息等多源异构数据，在统一数据治理与可追溯管理基础上，形成可计算、可关联、可复用的投前分析底座，为跨园区、跨城市的项目比较与协同推进提供一致口径的分析依据。
           </p>
           <p>
-            上述 3D-PV 能力可作为本申报场景"以三维认知孪生与大模型智能分析为核心的投前决策支撑体系"的关键技术底座：在城市/园区尺度的三维认知孪生环境中，3D-PV 将屋顶几何、遮挡关系与时变光照条件转化为可计算的时空特征，输出更可信的发电潜力预测与遮挡风险评估结果。该结果可进一步对接投前阶段的方案比选、储能容量配置与投资测算（如 IRR/NPV/回收期及敏感性分析），从而以可解释、可复算的证据链缩短单项目投前评估周期，并支撑多项目、多情景的智能决策与政策研判。
+            系统以三维认知孪生模型作为空间约束与计算载体，精细刻画建筑形态、屋顶资源、遮挡关系与环境条件，结合太阳辐照与气象时序映射，建立光伏发电潜力评估、储能容量配置与充放电时序仿真、光储协同消纳与收益稳定性分析等关键能力；同时引入大模型驱动的政策文本解析与区域对比推理，将政策条款、电价结构与技术运行结果显式耦合，支撑多情景收益测算、敏感性分析与风险评估，输出净现值、内部收益率、投资回收期等核心指标，并通过看板化展示与标准化报告生成，将复杂分析过程转化为可解释、可对比、可落地的投前决策信息。
           </p>
         </div>
       </div>
@@ -368,10 +332,50 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- Teaser video-->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">展示视频</h2>
+        <div style="margin-bottom: 2rem;">
+          <video poster="" id="tree" autoplay controls muted loop preload="metadata" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <!-- TODO: Add your video file path here -->
+            <source src="static/videos/demo3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-justified" style="width: 100%; margin: 0 auto; margin-top: 1.5rem;">
+          <p>
+            本视频展示 3D-PV 在光储一体化项目投前阶段的关键能力链路：基于 3DGS 构建三维认知孪生，生成动态阴影时空表征，并进行语义时空融合预测。输出发电潜力与遮挡风险的可解释结果，可接入已经投入使用的"中鑫能碳大模型"和其投资测算模块，支撑多方案比选与投前评审。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
+<!-- Teaser image-->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">展示demo图片</h2>
+        <div style="margin-bottom: 2rem;">
+          <img src="static/images/fig1.png" alt="3D-PV Teaser Image" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        </div>
+        <div class="content has-text-justified" style="width: 100%; margin: 0 auto; margin-top: 1.5rem;">
+          <p>
+            3D-PV 投前"空间—时空—语义"一体化建模流程。3D-PV 以 Deblurring-3DGS 构建光伏及周边环境的高保真三维空间表征，并通过 ComputeShader 并行生成阴影变化矩阵作为时空遮挡表征；在此基础上融合阴影动态与实测辐照信号，实现动态遮挡条件（DSC）下的时间一致功率预测。该能力与标书的三维认知孪生与时空分析路线一致，可为投前阶段发电潜力评估、方案对比与投资测算提供可解释、可复算的三维证据输入。
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Divider -->
+    <hr style="margin: 3rem auto; max-width: 80%; border-top: 1px dashed #dbdbdb;">
+    
+    <!-- Image carousel -->
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
@@ -399,10 +403,9 @@
       </h2> -->
     </div>
   </div>
-</div>
-</div>
+  </div>
 </section>
-<!-- End image carousel -->
+<!-- End teaser image and carousel -->
 
 
 
@@ -481,15 +484,34 @@
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">已有成果</h2>
+        </div>
       </div>
-      <pre id="bibtex-code"><code>@article{li20253d,
+      <div class="content">
+      <!-- Paper 1 -->
+      <div style="margin-top: 2rem;">
+        <div style="background: var(--background-accent); padding: 1.25rem 1.5rem; border-radius: var(--border-radius); margin-bottom: 1.5rem; border-left: 4px solid var(--primary-color);">
+          <h3 style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 1.1rem; color: var(--text-primary); margin: 0; line-height: 1.5;">
+            3D-PV: Enhancing PV power prediction by modeling spatial uncertainty under dynamic shading conditions
+          </h3>
+        </div>
+        <div class="bibtex-header">
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <a href="https://www.sciencedirect.com/science/article/pii/S0957417425024868" target="_blank"
+              class="copy-bibtex-btn" title="View Paper" style="margin-left: 0;">
+              <i class="fas fa-file-pdf"></i>
+              <span class="copy-text">Paper</span>
+            </a>
+            <button class="copy-bibtex-btn" onclick="copyBibTeX('bibtex-code-1', event)" title="Copy BibTeX to clipboard" style="margin-right: 0;">
+              <i class="fas fa-copy"></i>
+              <span class="copy-text">Copy</span>
+            </button>
+          </div>
+        </div>
+        <pre id="bibtex-code-1"><code>@article{li20253d,
         title={3D-PV: Enhancing PV Power Prediction by Modeling Spatial Uncertainty Under Dynamic Shading Conditions},
         author={Li, Fengze and Hong, Dou and Ma, Jieming and Tian, Zhongbei and Liang, Hai-Ning and Guo, Jiawei and Wang, Kangshi},
         journal={Expert Systems with Applications},
@@ -497,6 +519,76 @@
         year={2025},
         publisher={Elsevier}
       }</code></pre>
+      </div>
+      
+      <!-- Divider -->
+      <hr style="margin: 3rem auto; max-width: 80%; border-top: 1px dashed #dbdbdb;">
+      
+      <!-- Paper 2 -->
+      <div>
+        <div style="background: var(--background-accent); padding: 1.25rem 1.5rem; border-radius: var(--border-radius); margin-bottom: 1.5rem; border-left: 4px solid var(--primary-color);">
+          <h3 style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 1.1rem; color: var(--text-primary); margin: 0; line-height: 1.5;">
+            Sensorless beta-particle-filter strategy for optimizing solar trackers under Partial Shading Condition
+          </h3>
+        </div>
+        <div class="bibtex-header">
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0960148125015356" target="_blank"
+              class="copy-bibtex-btn" title="View Paper" style="margin-left: 0;">
+              <i class="fas fa-file-pdf"></i>
+              <span class="copy-text">Paper</span>
+            </a>
+            <button class="copy-bibtex-btn" onclick="copyBibTeX('bibtex-code-2', event)" title="Copy BibTeX to clipboard" style="margin-right: 0;">
+              <i class="fas fa-copy"></i>
+              <span class="copy-text">Copy</span>
+            </button>
+          </div>
+        </div>
+        <pre id="bibtex-code-2"><code>@article{huang2026sensorless,
+        title={Sensorless beta-particle-filter strategy for optimizing solar trackers under Partial Shading Condition},
+        author={Huang, Ming and Ma, Jieming and Wang, Kangshi and Man, Ka Lok and Guan, Sheng-Uei and Zhang, Xue and Qian, Jiye},
+        journal={Renewable Energy},
+        volume={256},
+        pages={123871},
+        year={2026},
+        publisher={Elsevier}
+      }</code></pre>
+      </div>
+      
+      <!-- Divider -->
+      <hr style="margin: 3rem auto; max-width: 80%; border-top: 1px dashed #dbdbdb;">
+      
+      <!-- Paper 3 -->
+      <div>
+        <div style="background: var(--background-accent); padding: 1.25rem 1.5rem; border-radius: var(--border-radius); margin-bottom: 1.5rem; border-left: 4px solid var(--primary-color);">
+          <h3 style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 1.1rem; color: var(--text-primary); margin: 0; line-height: 1.5;">
+            Temporal environment informed photovoltaic performance prediction framework with multi-spatial attention LSTM
+          </h3>
+        </div>
+        <div class="bibtex-header">
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X25003135" target="_blank"
+              class="copy-bibtex-btn" title="View Paper" style="margin-left: 0;">
+              <i class="fas fa-file-pdf"></i>
+              <span class="copy-text">Paper</span>
+            </a>
+            <button class="copy-bibtex-btn" onclick="copyBibTeX('bibtex-code-3', event)" title="Copy BibTeX to clipboard" style="margin-right: 0;">
+              <i class="fas fa-copy"></i>
+              <span class="copy-text">Copy</span>
+            </button>
+          </div>
+        </div>
+        <pre id="bibtex-code-3"><code>@article{hong2025temporal,
+        title={Temporal environment informed photovoltaic performance prediction framework with multi-spatial attention LSTM},
+        author={Hong, Dou and Li, Fengze and Ma, Jieming and Man, Ka Lok and Wen, Huiqing and Wong, Prudence},
+        journal={Solar Energy},
+        volume={296},
+        pages={113550},
+        year={2025},
+        publisher={Elsevier}
+      }</code></pre>
+      </div>
+      </div>
     </div>
 </section>
 <!--End BibTex citation -->
